@@ -73,7 +73,7 @@ const TranDetail = ({ route, navigation }) => {
                         </MenuOption>
                         <MenuOption onSelect={handleDelete}>
                             <View style={styles.menuItem}>
-                                <Text style={[styles.menuText, { color: 'red' }]}>Cancel</Text>
+                                <Text style={[styles.menuText, { color: 'red' }]}>Cancel transaction</Text>
                             </View>
                         </MenuOption>
                     </MenuOptions>
